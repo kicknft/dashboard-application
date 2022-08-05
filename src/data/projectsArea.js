@@ -182,7 +182,7 @@ export const projectDetailsArea = {
   flag,
   tagline: "Tech",
   country: "United Kingdom",
-  title: "A New Super Car on Your Wrist",
+  title: "Afreda S6: A Fold-in-1s Reverse 3-wheel E-bike ",
   pledged: 2203,
   backers: 68,
   daysLeft: 20,
@@ -211,8 +211,8 @@ export const projectDetailsTabBtns = [
 ];
 
 export const projectDetailsStory = {
-  id: "pills-home",
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vulputate sed mauris vitae pellentesque. Nunc ut ullamcorper libero. Aenean fringilla mauris quis risus laoreet interdum. Quisque imperdiet orci in metus aliquam egestas. Fusce elit libero, imperdiet nec orci quis, convallis hendrerit nisl. Cras auctor nec purus at placerat.",
+  ids: "pills-home",
+  text: " ipsum dolor sit amet, consectetur adipiscing elit. Praesent vulputate sed mauris vitae pellentesque. Nunc ut ullamcorper libero. Aenean fringilla mauris quis risus laoreet interdum. Quisque imperdiet orci in metus aliquam egestas. Fusce elit libero, imperdiet nec orci quis, convallis hendrerit nisl. Cras auctor nec purus at placerat.",
   lists: [
     "Nsectetur cing mauris quis risus laoreet elit.",
     "Suspe ndisse dolor sit amet suscipit sagittis leo.",
@@ -227,12 +227,12 @@ export const projectDetailsStory = {
     "Nulla in ex at mi viverra sagittis ut non erat raesent nec congue elit. Nunc arcu odio, convallis a lacinia ut, tristique id eros. Suspendisse leo erat, pellentesque et commodo vel, varius in felis. Nulla mollis turpis porta justo eleifend volutpat. Cras malesuada nec magna eu blandit. Nam sed efficitur ante. Quisque lobortis sodales risus, eu dapibus dolor porta vitae. Vestibulum eu ex auctor, scelerisque velit sit amet, vehicula sapien.",
   items: [
     {
-      id: 1,
+      idi: 1,
       title: "One Power Bank for Every Wrist Car",
       text: "Lorem Ipsum nibh vel velit auctor aliquet. Aenean sollic tudin, lorem is simply free text quis bibendum.",
     },
     {
-      id: 2,
+      idi: 2,
       title: "One Power Bank for Every Wrist Car",
       className: "mt-45 mb-50",
       text: "Lorem Ipsum nibh vel velit auctor aliquet. Aenean sollic tudin, lorem is simply free text quis bibendum.",
@@ -251,29 +251,8 @@ export const projectDetailsUpdates = {
   updates: [
     {
       id: 1,
-      title: "This is the first update of our new project",
-      info: {
-        image: info,
-        name: "Sarah Albert",
-        date: "4 March, 2020",
-      },
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vulputate sed mauris vitae pellentesque. Nunc ut ullamcorper libero. Aenean fringilla mauris quis risus laoreet interdum. Quisque imperdiet orci in metus aliquam egestas. Fusce elit libero, imperdiet nec orci quis, convallis hendrerit nisl. Cras auctor nec purus at placerat.",
-      text2:
-        "Quisque consectetur, lectus in ullamcorper tempus, dolor arcu suscipit elit, id laoreet tortor justo nec arcu. Nam eu dictum ipsum. Morbi in mi eu urna placerat finibus a vel neque. Nulla in ex at mi viverra sagittis ut non erat. Praesent nec congue elit.",
-      image: "project-updates-thumb-1.jpg",
-    },
-    {
-      id: 2,
-      title: "This is the first update of our new project",
-      info: {
-        image: info,
-        name: "Sarah Albert",
-        date: "4 March, 2020",
-      },
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vulputate sed mauris vitae pellentesque. Nunc ut ullamcorper libero. Aenean fringilla mauris quis risus laoreet interdum. Quisque imperdiet orci in metus aliquam egestas. Fusce elit libero, imperdiet nec orci quis, convallis hendrerit nisl. Cras auctor nec purus at placerat.",
-      text2:
-        "Quisque consectetur, lectus in ullamcorper tempus, dolor arcu suscipit elit, id laoreet tortor justo nec arcu. Nam eu dictum ipsum. Morbi in mi eu urna placerat finibus a vel neque. Nulla in ex at mi viverra sagittis ut non erat. Praesent nec congue elit.",
-      image: "project-updates-thumb-2.jpg",
+      title: "Post your update here",
+    
     },
   ],
 };
@@ -301,7 +280,7 @@ export const projectDetailsComments = {
 export const projectDetailsSidebar = {
   info: {
     image: projectInfo,
-    name: "John Smith",
+    name: "John Wilson",
     backed: 20,
     text: "Aenean fringilla mauris quis risus laoreet interdum. Quisque imperdiet orci in metus aliquam egestas.",
   },
@@ -312,8 +291,8 @@ export const projectDetailsSidebar = {
       sold: 50,
       off: 62,
       amount: "5,800",
-      date: "November 2022",
-      claimed: 23,
+      date: "July 2022",
+      claimed: 53,
       totalClaimed: 30,
     },
     {

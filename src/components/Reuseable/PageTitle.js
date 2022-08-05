@@ -1,4 +1,4 @@
-import bg from "@/images/page-title-bg.jpg";
+import bg from "@/images/purple-cool.png";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Link from "./Link";

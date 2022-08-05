@@ -6,16 +6,16 @@ import SimilarProjects from "@/components/ProjectsArea/SimilarProjects";
 import PageTitle from "@/components/Reuseable/PageTitle";
 import React from "react";
 
-const SingleProject = () => {
-  return (
-    <Layout>
-      <Header />
-      <PageTitle title="New Project" page="Explore" />
-      <ProjectDetailsArea />
-      <ProjectDetailsContent />
-      <SimilarProjects />
-    </Layout>
-  );
+const SinProject = () => {
+    return (
+        <Layout>
+            <Header />
+            <PageTitle title="Single Project" page="Explore" />
+            <ProjectDetailsArea />
+            <ProjectDetailsContent />
+            <SimilarProjects />
+        </Layout>
+    );
 };
 
-export default SingleProject;
+export default SinProject;
