@@ -6,14 +6,14 @@ import flag from "@/images/flag.png";
 import info from "@/images/info.jpg";
 import bg1 from "@/images/project5-b.jpg";
 import bg2 from "@/images/project-bg-2.jpg";
-import thumb3 from "@/images/creator1-b.jpg"; //section image
+import thumb3 from "@/images/creator2.jpg"; //section image
 // import projectDetails2 from "@/images/project-details-2.jpg";
-import thumb2 from "@/images/creator1-a.jpg"; //section image
+import thumb2 from "@/images/creator2-a.jpeg"; //section image
 import projectInfo from "@/images/owner.png";
 import projectPerk1 from "@/images/supporter-silver.png";
 import projectPerk2 from "@/images/supporter-gold.png";
 import projectPerk3 from "@/images/supporter-platinum.png";
-import thumb from "@/images/creator1.jpg";
+import thumb from "@/images/creator2.jpg";
 
 import { faqs } from "./faqArea";
 
@@ -132,14 +132,14 @@ export const creatorArea = [
 
 export const creatorDetailsArea = {
     thumb,
-    tagline: "Tech",
+    tagline: "Celebrity",
     country: "India",
-    title: "Salil jamdar - New Webseries Production ",
-    pledged: 2203,
+    title: "Gaurav Taneja - Lauching a new Sponsoring Edition On Instagram  ",
+    pledged: 5003,
     backers: 8,
     daysLeft: 20,
     raised: 3,
-    goal: "250000.00",
+    goal: "20000.00",
     socials: socials3,
 };
 
@@ -164,14 +164,14 @@ export const creatorDetailsTabBtns = [
 
 export const creatorDetailsStory = {
     ids: "pills-home",
-    text: "About - Salil Jamdar began his YouTube journey in 2014 with the web series Shudh Desi Endings. Later, the producers of Shudh Desi Endings reached out to him and offered him to start a YouTube channel where he would post parodies of several songs and movies. He started the channel Shudh Desi Gaane in the year 2015.",
+    text: "About - Gaurav Taneja’s net worth is $5 million as of 2022. Gaurav Taneja aka Flying Beast is an Indian youtuber, commercial pilot and nutritionist. He accumulated his net worth through advertisements and brand collaboration on his social media accounts. He is known for producing YouTube videos concerning Fitness, Gaming and his daily life vlogs.",
     lists: [
         '',
        
        
     ],
     image: thumb2,
-    text2:" I wants to create my new series and for that i want some fund to start the production as webseries production is very costly thing. You can support me.",
+    text2:" I am lauching a new Sponsoring Edition On Instagram by supporting us here you can earn percentage based returns on our sponsoring edition profit.",
     text3:"",
     // items: [
     //     {

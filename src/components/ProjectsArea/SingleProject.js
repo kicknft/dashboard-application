@@ -1,6 +1,9 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 import Link from "../Reuseable/Link";
+// const { projects } = projectsArea;
+// import { projectsArea } from "@/data/projectsArea";
+
 
 const SingleProject = ({ project = {} }) => {
   const { image, category, date, title, goal, raised } = project;
@@ -20,7 +23,7 @@ const SingleProject = ({ project = {} }) => {
             <i className="fa fa-clock-o"></i> {date}
           </p>
         </div>
-        <Link href="/single-project">
+        <Link href={'/projects/' + project.id}>
           <h3 className="title">{title}</h3>
         </Link>
         <div className="projects-range">
