@@ -10,7 +10,7 @@ const SingleProject = () => {
   return (
     <Layout>
       <Header />
-      <PageTitle title="New Project" page="Explore" />
+      <PageTitle title="Projects" page="Explore" />
       <ProjectDetailsArea />
       <ProjectDetailsContent />
       <SimilarProjects />

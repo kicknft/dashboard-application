@@ -35,8 +35,7 @@ const SiteFooter = () => {
               </ul>
             </div>
           </Col>
-          <FooterList title="Company" list={links.slice(0, 5)} />
-          <FooterList title="Fundraising" list={links.slice(5)} />
+         
           <Col lg={4} md={6} sm={8}>
             <div className="footer-newsletter mt-30">
               <div className="footer-title">

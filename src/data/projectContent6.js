@@ -8,14 +8,14 @@ import flag from "@/images/flag.png";
 import info from "@/images/info.jpg";
 import bg1 from "@/images/project1-b.jpg";
 import bg2 from "@/images/project-bg-2.jpg";
-import thumb3 from "@/images/project2-a.png"; //section image
+import thumb3 from "@/images/project6-b.webp"; //section image
 // import projectDetails2 from "@/images/project-details-2.jpg";
-import thumb2 from "@/images/project2-b.png"; //section image
+import thumb2 from "@/images/project6-a.webp"; //section image
 import projectInfo from "@/images/owner.png";
 import projectPerk1 from "@/images/Funder-silver.png";
 import projectPerk2 from "@/images/Funder-gold.png";
 import projectPerk3 from "@/images/Funder-platinum.png";
-import thumb from "@/images/explore-projects-2.webp";
+import thumb from "@/images/explore-projects-6.webp";
 
 import { faqs } from "./faqArea";
 
@@ -183,14 +183,14 @@ export const projectArea = [
 export const projectDetailsArea = {
     thumb,
     flag,
-    tagline: "Health",
+    tagline: "Tech",
     country: "United Kingdom",
-    title: "Banala Sense - BETTER SLEEP - ONLY A BUTTON AWAY",
-    pledged: 2203,
-    backers: 8,
-    daysLeft: 10,
+    title: "PicoPC: Tiny Desktop PC, Win10 Linux 4K Computer",
+    pledged: 50203,
+    backers: 43,
+    daysLeft: 24,
     raised: 43,
-    goal: "50000.00",
+    goal: "100000.00",
     socials: socials3,
 };
 
@@ -215,17 +215,19 @@ export const projectDetailsTabBtns = [
 
 export const projectDetailsStory = {
     ids: "pills-home",
-    text: " Fall Asleep Faster, Sleep Deeper & Improve Mental Clarity with Isochronic Sound Technology. As the seasons change and the days become shorter and the night's longer, ensure you're one step ahead of the dreaded winter blues. Welcome to Banala® Sense, our pioneering, ground-breaking, sleep-inducing smart mini speaker integrated with isochronic sound technology.Finally, you can say goodbye to insomnia and enjoy a prolonged, deeper, healing night's sleep. Bring Banala Sense into your life and harmonize your sleep cycles. With our schedules becoming increasingly chaotic, we must ensure we're getting our eight hours of beauty sleep each night.",
+    text: "A tiny portable desktop PC. One that gets every job done and fills that void where mobile phones, tablets, and other mobile devices fail miserably.  Pantera Pico PC ticks all the requirements, and meets all your portable office computing needs.",
     lists: [
-        ' Banala Sense introduces you to an intense sleep journey from the beginning of the night to the morning.',
-        'Regular use of Banala Sense will restore your natural sleep cycles to their highest levels. In addition, continued use of our device will ensure your overall health improves.',
+        'Ultra small form factor desktop computer, easily fits most bags',
+        'Far lighter than a desktop tower PC',
+        '4K UHD video output',
+        'Windows and Linux compatible',
        
     ],
     image: thumb2,
     text2:
-        "Smart Sleep-Cycle-Inducing System will start with the Theta Isochronic sound to help slow your cluttered mind down. Then, the Theta wave will ensure you fall into a deep sleep. Lastly, the Delta wave will make you experience an intense rest. In addition, the secret blend of other eclectic waves will ensure your peaceful rest continues.",
+        "The Pantera Pico PC is the perfect device for productivity and entertainment that is willing to go anywhere with you. It is an ultra-small and ultra-light computer, you can put it in the palm of your hand and weighs just about the same as an average smartphone of today. Unlike a tower PC, you can take the Pantera from one room to the other, take it upstairs, downstairs, bring it to the office, without breaking a sweat. We have designed the Pantera to be so small  that when you put it on your desk, your desk will instantly look huge because of all the space you have saved.",
     text3:
-        "Banala Life is a company dedicated to helping people worldwide sleep better. Based on extensive and insightful research, we offer solutions that improve the well-being of our users. Our mission is to defeat insomnia once and for all. ",
+        "Pantera was a dream of ours for over 6 years. We saw the market for tiny desktop PC’s years ago, but we only had android TV box resources. Our team was busy with different marketing and development projects. When the recent pandemic happened, people around the world were stuck at home. The recent work and travel restrictions has shown us how computers and the internet played a role when many workers are forced to work from home. The demand for home computers and laptops have soared simply because most mobile devices like smartphones and tablets, that people already have, just aren’t built for the level of multi-tasking that a full computer offers.",
     // items: [
     //     {
     //         idi: 1,
@@ -267,10 +269,7 @@ export const projectDetailsComments = {
     comments: [
         {
             id: 1,
-            image: "comment-2.2.jpg",
-            name: "Kevin Martin",
-            date: "3 July, 2022",
-            text: "It is really a awesome project. It gonna improve lives of lots of people",
+            
         },
     ],
 };
@@ -278,9 +277,9 @@ export const projectDetailsComments = {
 export const projectDetailsSidebar = {
     info: {
         image: projectInfo,
-        name: "Mark Wilson",
-        backed: 20,
-        text: " Entrepreneur & Passionate Builder",
+        name: "Shikhar",
+        backed: 10,
+        text: " Entrepreneur ",
     },
     perks: [
         {

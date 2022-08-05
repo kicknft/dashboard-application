@@ -6,16 +6,16 @@ import image5 from "@/images/explore-projects-5.webp";
 import image6 from "@/images/explore-projects-6.webp";
 import flag from "@/images/flag.png";
 import info from "@/images/info.jpg";
-import bg1 from "@/images/project1-b.jpg";
+import bg1 from "@/images/project4-b.jpg";
 import bg2 from "@/images/project-bg-2.jpg";
-import thumb3 from "@/images/project2-a.png"; //section image
+import thumb3 from "@/images/project4-b.jpg"; //section image
 // import projectDetails2 from "@/images/project-details-2.jpg";
-import thumb2 from "@/images/project2-b.png"; //section image
+import thumb2 from "@/images/project4-a.jpg"; //section image
 import projectInfo from "@/images/owner.png";
 import projectPerk1 from "@/images/Funder-silver.png";
 import projectPerk2 from "@/images/Funder-gold.png";
 import projectPerk3 from "@/images/Funder-platinum.png";
-import thumb from "@/images/explore-projects-2.webp";
+import thumb from "@/images/explore-projects-4.webp";
 
 import { faqs } from "./faqArea";
 
@@ -183,13 +183,13 @@ export const projectArea = [
 export const projectDetailsArea = {
     thumb,
     flag,
-    tagline: "Health",
+    tagline: "Tech",
     country: "United Kingdom",
-    title: "Banala Sense - BETTER SLEEP - ONLY A BUTTON AWAY",
-    pledged: 2203,
+    title: "Segway SuperScooter GT Series: Perform the Future ",
+    pledged: 5003,
     backers: 8,
-    daysLeft: 10,
-    raised: 43,
+    daysLeft: 50,
+    raised: 23,
     goal: "50000.00",
     socials: socials3,
 };
@@ -215,30 +215,18 @@ export const projectDetailsTabBtns = [
 
 export const projectDetailsStory = {
     ids: "pills-home",
-    text: " Fall Asleep Faster, Sleep Deeper & Improve Mental Clarity with Isochronic Sound Technology. As the seasons change and the days become shorter and the night's longer, ensure you're one step ahead of the dreaded winter blues. Welcome to Banala® Sense, our pioneering, ground-breaking, sleep-inducing smart mini speaker integrated with isochronic sound technology.Finally, you can say goodbye to insomnia and enjoy a prolonged, deeper, healing night's sleep. Bring Banala Sense into your life and harmonize your sleep cycles. With our schedules becoming increasingly chaotic, we must ensure we're getting our eight hours of beauty sleep each night.",
+    text: "Waydoo Subnado is an ultra-compact yet extremely robust underwater scooter that has a smooth, powerful propulsion system and user-friendly design. This innovative underwater system bridges the gap between expensive and difficult to control models and ineffective entry-level models. Whether you are an amateur or a professional, with Subnado, you can explore underwater like never before. ",
     lists: [
-        ' Banala Sense introduces you to an intense sleep journey from the beginning of the night to the morning.',
-        'Regular use of Banala Sense will restore your natural sleep cycles to their highest levels. In addition, continued use of our device will ensure your overall health improves.',
-       
+        'Super Fast Recharge',
+        'Quick Release Mounting System',
+
     ],
     image: thumb2,
     text2:
-        "Smart Sleep-Cycle-Inducing System will start with the Theta Isochronic sound to help slow your cluttered mind down. Then, the Theta wave will ensure you fall into a deep sleep. Lastly, the Delta wave will make you experience an intense rest. In addition, the secret blend of other eclectic waves will ensure your peaceful rest continues.",
+        "Unlike other underwater scooters, Subnado doesn’t require both hands to operate. In fact, by using the quick-release mounting system, one or more Subnado can be secured on your arms or legs so that you can focus on the surrounding environment and your movements, making you feel lighter and freer.",
     text3:
-        "Banala Life is a company dedicated to helping people worldwide sleep better. Based on extensive and insightful research, we offer solutions that improve the well-being of our users. Our mission is to defeat insomnia once and for all. ",
-    // items: [
-    //     {
-    //         idi: 1,
-    //         title: "One Power Bank for Every Wrist Car",
-    //         text: "Lorem Ipsum nibh vel velit auctor aliquet. Aenean sollic tudin, lorem is simply free text quis bibendum.",
-    //     },
-    //     {
-    //         idi: 2,
-    //         title: "One Power Bank for Every Wrist Car",
-    //         className: "mt-45 mb-50",
-    //         text: "Lorem Ipsum nibh vel velit auctor aliquet. Aenean sollic tudin, lorem is simply free text quis bibendum.",
-    //     },
-    // ],
+        "Subnado is designed with safety in mind. In order to minimize the risks of accidents, Subnado uses only the most reliable built-in battery and a wired controller. And for the safety of children, Subnado's propellers are fitted with a finger-safe guard to reduce the risks of accidental propeller injury.",
+   
     images: thumb3,
 };
 
@@ -267,10 +255,7 @@ export const projectDetailsComments = {
     comments: [
         {
             id: 1,
-            image: "comment-2.2.jpg",
-            name: "Kevin Martin",
-            date: "3 July, 2022",
-            text: "It is really a awesome project. It gonna improve lives of lots of people",
+
         },
     ],
 };
@@ -278,9 +263,9 @@ export const projectDetailsComments = {
 export const projectDetailsSidebar = {
     info: {
         image: projectInfo,
-        name: "Mark Wilson",
+        name: " Peter",
         backed: 20,
-        text: " Entrepreneur & Passionate Builder",
+        text: " Entrepreneur ",
     },
     perks: [
         {

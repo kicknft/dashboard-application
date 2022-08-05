@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Image, Row } from "react-bootstrap";
+import { Col, Image, Row, Button} from "react-bootstrap";
 import Link from "../Reuseable/Link";
 import HeaderInfo from "./HeaderInfo";
 import HeaderMenu from "./HeaderMenu";
@@ -18,7 +18,7 @@ const MainHeaderItem = ({
         <div className="main-header-item">
           <div className="main-header-menus d-flex justify-content-between align-items-center">
             <div className="header-logo">
-              <Link href="/">
+              <Link href="/projects">
                 <Image src={logo.src} alt="logo" />
               </Link>
             </div>
@@ -29,6 +29,7 @@ const MainHeaderItem = ({
               socials={socials}
               searchColor={searchColor}
             />
+              <Button variant="primary" size="lg" >Connect Wallet</Button>
           </div>
         </div>
       </Col>

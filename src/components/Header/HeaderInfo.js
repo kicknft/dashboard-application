@@ -15,11 +15,7 @@ const HeaderInfo = ({ socials, icon, phone = "", searchColor }) => {
           <SearchIcon color={searchColor} />
         </a>
       </div>
-      <div className="info d-none d-sm-block">
-        <Image src={icon.src} alt="" />
-        <span>Call Anytime</span>
-        <h5 className="title">{phone}</h5>
-      </div>
+      
       <div
         onClick={toggleMenu}
         className="toggle-btn ml-30 canvas_open d-lg-none d-block"

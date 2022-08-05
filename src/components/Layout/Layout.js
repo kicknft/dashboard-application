@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Krowd - Crowdfunding Projects & Charity NextJS Template</title>
+        <title>Kick NFT - Decentralized CrowdFunding & Donating Platform</title>
       </Head>
       <main id="wrapper" className="animated fadeIn">
         {children}

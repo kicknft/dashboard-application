@@ -1,13 +1,33 @@
 import Header from "@/components/Header/Header";
 import Layout from "@/components/Layout/Layout";
-import ProjectDetailsArea from "@/components/ProjectsArea/ProjectDetails/ProjectDetailsArea";
-import ProjectDetailsContent from "@/components/ProjectsArea/ProjectDetails/ProjectDetailsContent";
+
 import SimilarProjects from "@/components/ProjectsArea/SimilarProjects";
 import PageTitle from "@/components/Reuseable/PageTitle";
-import React from "react";
+import React, { useState } from "react";
 
-import { projectDetailsArea } from "@/data/projectContent1";
+import { projectDetailsArea } from "@/data/projectContent5";
 import { Col, Container, Image, Row } from "react-bootstrap";
+
+import { projectDetailsTabBtns } from "@/data/projectContent5";
+
+import CommentForm from "@/components/NewsArea/BlogDetails/CommentForm";
+import CommentOne from "@/components/NewsArea/BlogDetails/CommentOne";
+import { projectDetailsComments } from "@/data/projectContent5";
+
+const { idc, comments } = projectDetailsComments;
+
+import { projectDetailsFaq } from "@/data/projectContent5";
+import Faqs from "@/components/FaqArea/Faqs";
+
+
+import { projectDetailsSidebar } from "@/data/projectContent5";
+const { info, perks } = projectDetailsSidebar;
+
+import { projectDetailsStory } from "@/data/projectContent5";
+const { ids, text, lists, text2, items, text3, image, images } =
+    projectDetailsStory;
+
+import ProjectDetailsUpdates from "@/components/ProjectsArea/ProjectDetails/ProjectDetailsUpdates";
 
 const {
     thumb,
@@ -23,14 +43,45 @@ const {
     socials,
 } = projectDetailsArea;
 
-import { projectDetailsTabBtns } from "@/data/projectsArea";
-import React, { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import ProjectDetailsComments from "./ProjectDetailsComments";
-import ProjectDetailsFaq from "./ProjectDetailsFaq";
-import ProjectDetailsSidebar from "./ProjectDetailsSidebar";
-import ProjectDetailsStory from "./ProjectDetailsStory";
-import ProjectDetailsUpdates from "./ProjectDetailsUpdates";
+
+const { faqs, id } = projectDetailsFaq;
+
+
+
+
+const ProjectDetailsPark = ({ perk = {} }) => {
+    const { id, image, sold, off, amount, claimed, totalClaimed } = perk;
+
+    return (
+        <div
+            className={`project-details-park mt-30 box${id === 2 ? " item-2" : ""}`}
+        >
+            <h4 className="title">Select a Perk</h4>
+            {image && <Image src={image.src} alt="" />}
+            <span>Funder ({sold} sold already)</span>
+            <p>
+                ${amount} ({off}% OFF)
+            </p>
+            <ul>
+                <li>
+                    {claimed} out of {totalClaimed} <span>claimed</span>
+                </li>
+            </ul>
+            <a className="main-btn" href="#">
+                Continue now
+            </a>
+        </div>
+    );
+};
+
+
+// const ProjectDetailsFaq = ({ getClassName }) => {
+//     return (
+//         <div className={getClassName(id)} id={id} role="tabpanel">
+//             <Faqs faqs={faqs} className="mt-70" />
+//         </div>
+//     );
+// };
 
 // const ProjectDetailsContent = () => {
 //     const [current, setCurrent] = useState("pills-home");
@@ -53,7 +104,7 @@ const SingleProject = () => {
     return (
         <Layout>
             <Header />
-            <PageTitle title="New Project" page="Explore" />
+            <PageTitle title=" Projects" page="Explore" />
 
             {/* project details header area */}
             <section className="project-details-area pt-120 pb-190">
@@ -153,18 +204,79 @@ const SingleProject = () => {
                                 </ul>
                             </div>
                             <div className="tab-content" id="pills-tabContent">
-                                <ProjectDetailsStory getClassName={getClassName} />
-                                <ProjectDetailsFaq getClassName={getClassName} />
+                                {/* <ProjectDetailsStory getClassName={getClassName} /> */}
+                                <div className={getClassName?.(ids)} id={ids} role="tabpanel">
+                                    <div className="project-details-content-top">
+                                        <p>{text}</p>
+                                        <ul>
+                                            {lists.map((list, i) => (
+                                                <li key={i}>
+                                                    <i className="flaticon-check"></i> {list}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                        <div className="project-details-thumb">
+                                            <Image src={image.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="project-details-item">
+                                        <p>{text2}</p>
+                                        {/* {items.map(({ ids, title, text, className = "" }) => (
+                                            <div className={`item ${className}`} key={id}>
+                                                <i className="flaticon-checkmark"></i>
+                                                <h5 className="title">{title}</h5>
+                                                <p>{text}</p>
+                                            </div>
+                                        ))} */}
+                                        <Row>
+                                            <div className="project-details-thumb">
+                                                <Image src={images.src} alt="" />
+                                            </div>
+                                            {/* {images.map((image, i) => (
+                                                <Col lg={6} md={6} sm={6} key={i}>
+                                                    
+                                                </Col>
+                                            ))} */}
+                                        </Row>
+                                        <p className="text">{text3}</p>
+                                    </div>
+                                </div>
+
+                                <div className={getClassName(id)} id={id} role="tabpanel">
+                                    <Faqs faqs={faqs} className="mt-70" />
+                                </div>
+
+                                {/* <ProjectDetailsFaq getClassName={getClassName} /> */}
                                 <ProjectDetailsUpdates getClassName={getClassName} />
-                                <ProjectDetailsComments getClassName={getClassName} />
+
+                                {/* <ProjectDetailsComments getClassName={getClassName} /> */}
+                                <div className={getClassName(idc)} id="pills-4" role="tabpanel">
+                                    <CommentOne comments={comments} className="mt-50" />
+                                    <CommentForm />
+                                </div>
                             </div>
                         </Col>
                         <Col lg={4} md={7} sm={9}>
-                            <ProjectDetailsSidebar />
+                            {/* <ProjectDetailsSidebar /> */}
+                            <div className="project-details-sidebar">
+                                <div className="project-details-info mt-70 box">
+                                    <div className="info">
+                                        <Image src={info.image.src} alt="" />
+                                        <h5 className="title">{info.name}</h5>
+                                        <span>{info.backed} backed</span>
+                                    </div>
+                                    <p>{info.text}</p>
+                                </div>
+                                {perks.map((perk) => (
+                                    <ProjectDetailsPark perk={perk} key={perk.id} />
+                                ))}
+                            </div>
                         </Col>
                     </Row>
                 </Container>
             </section>
+
+
 
             <SimilarProjects />
         </Layout>

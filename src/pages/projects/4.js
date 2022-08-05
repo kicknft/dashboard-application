@@ -1,34 +1,29 @@
 import Header from "@/components/Header/Header";
 import Layout from "@/components/Layout/Layout";
-// import ProjectDetailsArea from "@/components/ProjectsArea/ProjectDetails/ProjectDetailsArea";
-// import ProjectDetailsContent from "@/components/ProjectsArea/ProjectDetails/ProjectDetailsContent";
+
 import SimilarProjects from "@/components/ProjectsArea/SimilarProjects";
 import PageTitle from "@/components/Reuseable/PageTitle";
 import React, { useState } from "react";
 
-import { projectDetailsArea } from "@/data/projectContent1";
+import { projectDetailsArea } from "@/data/projectContent4";
 import { Col, Container, Image, Row } from "react-bootstrap";
 
-import { projectDetailsTabBtns } from "@/data/projectContent1";
+import { projectDetailsTabBtns } from "@/data/projectContent4";
 
-// import ProjectDetailsComments from "@/components/ProjectsArea/ProjectDetails/ProjectDetailsComments";
 import CommentForm from "@/components/NewsArea/BlogDetails/CommentForm";
 import CommentOne from "@/components/NewsArea/BlogDetails/CommentOne";
-import { projectDetailsComments } from "@/data/projectContent1";
+import { projectDetailsComments } from "@/data/projectContent4";
 
 const { idc, comments } = projectDetailsComments;
 
-// import ProjectDetailsFaq from "@/components/ProjectsArea/ProjectDetails/ProjectDetailsFaq";
-import { projectDetailsFaq } from "@/data/projectContent1";
+import { projectDetailsFaq } from "@/data/projectContent4";
 import Faqs from "@/components/FaqArea/Faqs";
 
 
-// import ProjectDetailsSidebar from "@/components/ProjectsArea/ProjectDetails/ProjectDetailsSidebar";
-import { projectDetailsSidebar } from "@/data/projectContent1";
+import { projectDetailsSidebar } from "@/data/projectContent4";
 const { info, perks } = projectDetailsSidebar;
 
-// import ProjectDetailsStory from "@/components/ProjectsArea/ProjectDetails/ProjectDetailsStory";
-import { projectDetailsStory } from "@/data/projectContent1";
+import { projectDetailsStory } from "@/data/projectContent4";
 const { ids, text, lists, text2, items, text3, image, images } =
     projectDetailsStory;
 
@@ -109,7 +104,7 @@ const SingleProject = () => {
     return (
         <Layout>
             <Header />
-            <PageTitle title="New Project" page="Explore" />
+            <PageTitle title=" Projects" page="Explore" />
 
             {/* project details header area */}
             <section className="project-details-area pt-120 pb-190">
@@ -235,7 +230,7 @@ const SingleProject = () => {
                                         ))} */}
                                         <Row>
                                             <div className="project-details-thumb">
-                                                <Image src={image.src} alt="" />
+                                                <Image src={images.src} alt="" />
                                             </div>
                                             {/* {images.map((image, i) => (
                                                 <Col lg={6} md={6} sm={6} key={i}>

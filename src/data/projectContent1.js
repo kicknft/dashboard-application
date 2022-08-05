@@ -8,9 +8,9 @@ import flag from "@/images/flag.png";
 import info from "@/images/info.jpg";
 import bg1 from "@/images/project1-b.jpg";
 import bg2 from "@/images/project-bg-2.jpg";
-import projectDetails1 from "@/images/project1-a.jpg";
+import thumb3 from "@/images/project1-a.jpg"; //section image
 // import projectDetails2 from "@/images/project-details-2.jpg";
-import thumb2 from "@/images/project1-a.jpg";
+import thumb2 from "@/images/project1-b.jpg"; //section image
 import projectInfo from "@/images/owner.png";
 import projectPerk1 from "@/images/Funder-silver.png";
 import projectPerk2 from "@/images/Funder-gold.png";
@@ -241,7 +241,7 @@ export const projectDetailsStory = {
     //         text: "Lorem Ipsum nibh vel velit auctor aliquet. Aenean sollic tudin, lorem is simply free text quis bibendum.",
     //     },
     // ],
-    images: projectDetails1,
+    images: thumb3,
 };
 
 export const projectDetailsFaq = {

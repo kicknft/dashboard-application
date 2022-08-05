@@ -8,14 +8,14 @@ import flag from "@/images/flag.png";
 import info from "@/images/info.jpg";
 import bg1 from "@/images/project1-b.jpg";
 import bg2 from "@/images/project-bg-2.jpg";
-import thumb3 from "@/images/project2-a.png"; //section image
+import thumb3 from "@/images/project3-a.jpg"; //section image
 // import projectDetails2 from "@/images/project-details-2.jpg";
-import thumb2 from "@/images/project2-b.png"; //section image
+import thumb2 from "@/images/project3-b.jpg"; //section image
 import projectInfo from "@/images/owner.png";
 import projectPerk1 from "@/images/Funder-silver.png";
 import projectPerk2 from "@/images/Funder-gold.png";
 import projectPerk3 from "@/images/Funder-platinum.png";
-import thumb from "@/images/explore-projects-2.webp";
+import thumb from "@/images/explore-projects-3.webp";
 
 import { faqs } from "./faqArea";
 
@@ -183,14 +183,14 @@ export const projectArea = [
 export const projectDetailsArea = {
     thumb,
     flag,
-    tagline: "Health",
+    tagline: "Tech",
     country: "United Kingdom",
-    title: "Banala Sense - BETTER SLEEP - ONLY A BUTTON AWAY",
-    pledged: 2203,
+    title: "Segway SuperScooter GT Series: Perform the Future ",
+    pledged: 33,
     backers: 8,
     daysLeft: 10,
     raised: 43,
-    goal: "50000.00",
+    goal: "350000.00",
     socials: socials3,
 };
 
@@ -215,17 +215,17 @@ export const projectDetailsTabBtns = [
 
 export const projectDetailsStory = {
     ids: "pills-home",
-    text: " Fall Asleep Faster, Sleep Deeper & Improve Mental Clarity with Isochronic Sound Technology. As the seasons change and the days become shorter and the night's longer, ensure you're one step ahead of the dreaded winter blues. Welcome to Banala® Sense, our pioneering, ground-breaking, sleep-inducing smart mini speaker integrated with isochronic sound technology.Finally, you can say goodbye to insomnia and enjoy a prolonged, deeper, healing night's sleep. Bring Banala Sense into your life and harmonize your sleep cycles. With our schedules becoming increasingly chaotic, we must ensure we're getting our eight hours of beauty sleep each night.",
+    text: "The perfect combination of speed, performance, and innovation makes the Segway SuperScooter GT Series a thrill seekers' dream. Crafted with stability and unparalleled control, the GT Series offers key features such as widened footboards, front and rear suspension, and 11-inch pneumatic tires.The six modes, set by a shifting knob, allow the riders to choose their own riding experience, and riders can enjoy the lightning-fast acceleration from 0 to 30 mph, top out at 3.9 seconds* in the GT2's Race Mode.",
     lists: [
-        ' Banala Sense introduces you to an intense sleep journey from the beginning of the night to the morning.',
-        'Regular use of Banala Sense will restore your natural sleep cycles to their highest levels. In addition, continued use of our device will ensure your overall health improves.',
+        'The ultra-powerful dual 1500W* motors with a peak power of 6000W* enable a top speed of up to 43.5 mph* (70 kph) and 0-30 mph acceleration in only 3.9 seconds ',
+        '512Wh* high-performance battery with a HeatFlux Multi-layer Cooling System',
        
     ],
     image: thumb2,
     text2:
-        "Smart Sleep-Cycle-Inducing System will start with the Theta Isochronic sound to help slow your cluttered mind down. Then, the Theta wave will ensure you fall into a deep sleep. Lastly, the Delta wave will make you experience an intense rest. In addition, the secret blend of other eclectic waves will ensure your peaceful rest continues.",
+        "The aviation-grade aluminum alloy frame made with extrusion techniques has a maximum payload of up to 330Lbs (150KG). The frame of the SuperScooter GT series features great strength and is ready for tough challenges at all times. Equipped with a long wheelbase, low center of gravity and wide riding deck, the GT Series offers better control and exceptional riding stability even at higher speeds.",
     text3:
-        "Banala Life is a company dedicated to helping people worldwide sleep better. Based on extensive and insightful research, we offer solutions that improve the well-being of our users. Our mission is to defeat insomnia once and for all. ",
+        "The rider has the option to twist the supercar-like shifting knob to select different riding modes (Park, Eco, Sport, Race) with the option to press down to choose the exclusive “Boost mode” for blasting speed and “Walk mode” for easier maneuvering.",
     // items: [
     //     {
     //         idi: 1,
@@ -267,10 +267,7 @@ export const projectDetailsComments = {
     comments: [
         {
             id: 1,
-            image: "comment-2.2.jpg",
-            name: "Kevin Martin",
-            date: "3 July, 2022",
-            text: "It is really a awesome project. It gonna improve lives of lots of people",
+            
         },
     ],
 };

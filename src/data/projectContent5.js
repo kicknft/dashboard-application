@@ -6,16 +6,16 @@ import image5 from "@/images/explore-projects-5.webp";
 import image6 from "@/images/explore-projects-6.webp";
 import flag from "@/images/flag.png";
 import info from "@/images/info.jpg";
-import bg1 from "@/images/project1-b.jpg";
+import bg1 from "@/images/project5-b.jpg";
 import bg2 from "@/images/project-bg-2.jpg";
-import thumb3 from "@/images/project2-a.png"; //section image
+import thumb3 from "@/images/project5-b.jpg"; //section image
 // import projectDetails2 from "@/images/project-details-2.jpg";
-import thumb2 from "@/images/project2-b.png"; //section image
+import thumb2 from "@/images/project5-a.jpg"; //section image
 import projectInfo from "@/images/owner.png";
 import projectPerk1 from "@/images/Funder-silver.png";
 import projectPerk2 from "@/images/Funder-gold.png";
 import projectPerk3 from "@/images/Funder-platinum.png";
-import thumb from "@/images/explore-projects-2.webp";
+import thumb from "@/images/explore-projects-5.webp";
 
 import { faqs } from "./faqArea";
 
@@ -183,14 +183,14 @@ export const projectArea = [
 export const projectDetailsArea = {
     thumb,
     flag,
-    tagline: "Health",
+    tagline: "Tech",
     country: "United Kingdom",
-    title: "Banala Sense - BETTER SLEEP - ONLY A BUTTON AWAY",
+    title: "Afreda S6: A Fold-in-1s Reverse 3-wheel E-bike  ",
     pledged: 2203,
     backers: 8,
-    daysLeft: 10,
+    daysLeft: 20,
     raised: 43,
-    goal: "50000.00",
+    goal: "500000.00",
     socials: socials3,
 };
 
@@ -215,17 +215,17 @@ export const projectDetailsTabBtns = [
 
 export const projectDetailsStory = {
     ids: "pills-home",
-    text: " Fall Asleep Faster, Sleep Deeper & Improve Mental Clarity with Isochronic Sound Technology. As the seasons change and the days become shorter and the night's longer, ensure you're one step ahead of the dreaded winter blues. Welcome to Banala® Sense, our pioneering, ground-breaking, sleep-inducing smart mini speaker integrated with isochronic sound technology.Finally, you can say goodbye to insomnia and enjoy a prolonged, deeper, healing night's sleep. Bring Banala Sense into your life and harmonize your sleep cycles. With our schedules becoming increasingly chaotic, we must ensure we're getting our eight hours of beauty sleep each night.",
+    text: "Maybe you have ridden a lot of E-bikes before, but trust me, Afreda S6 is so extraordinary that will bring you unprecedented riding experience beyond your imagination！  Inspired by world's 1st reverse 3-wheel motorcycle-- PIAGGIO MP3, Afreda S6 is one of the most convenient and safest folding 3-wheel E-bike. It's powerful, portable, conspicuous, and stable to ride. Notably, it can be folded up and unfolded in 1 step for just 1 second! It has 2 riding modes which is perfect for any riders (Even kids and elderly can ride it safely) in any given situation (commute, family outings, and off-road).",
     lists: [
-        ' Banala Sense introduces you to an intense sleep journey from the beginning of the night to the morning.',
-        'Regular use of Banala Sense will restore your natural sleep cycles to their highest levels. In addition, continued use of our device will ensure your overall health improves.',
+        'Shock absorption of the wheel reaches 11 inches',
+        'Suitable for the trunk of a sedan.',
        
     ],
     image: thumb2,
     text2:
-        "Smart Sleep-Cycle-Inducing System will start with the Theta Isochronic sound to help slow your cluttered mind down. Then, the Theta wave will ensure you fall into a deep sleep. Lastly, the Delta wave will make you experience an intense rest. In addition, the secret blend of other eclectic waves will ensure your peaceful rest continues.",
+        "Supposed you're a good rider, you can unlocked the suspension lock and enjoy the freedom of riding. In free riding mode, the Articulated Quadrilateral Suspension Structure can move freely both horizontally and vertically.  The Afreda S6 fully shows its superior shock absorption and flexibility, especially on the off-road.",
     text3:
-        "Banala Life is a company dedicated to helping people worldwide sleep better. Based on extensive and insightful research, we offer solutions that improve the well-being of our users. Our mission is to defeat insomnia once and for all. ",
+        "For beginners, the elderly, and kids, we recommend the Self-Balancing mode which the Suspension Structure is locked. In this mode, the AQSS cannot move horizontally and vertically, maintaining a stable position of the rectangular state so that Afreda's  2 front wheels are on stable balanced. It can turn and run like riding a normal tricycle. It is the safest way of riding and will not fall even it is stopped(without kickstand),  but in this mode Afreda will lose some damping effect and must drive at a low speed.",
     // items: [
     //     {
     //         idi: 1,
@@ -267,10 +267,7 @@ export const projectDetailsComments = {
     comments: [
         {
             id: 1,
-            image: "comment-2.2.jpg",
-            name: "Kevin Martin",
-            date: "3 July, 2022",
-            text: "It is really a awesome project. It gonna improve lives of lots of people",
+            
         },
     ],
 };

@@ -1,7 +1,7 @@
 import headerData from "@/data/headerData";
 import useScroll from "@/hooks/useScroll";
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Button} from "react-bootstrap";
 import MainHeaderItem from "./MainHeaderItem";
 import Social from "./Social";
 
@@ -17,8 +17,6 @@ const Header = ({ className = "" }) => {
           <MainHeaderItem
             logo={logo}
             navItems={navItems}
-            icon={icon}
-            phone={phone}
           />
         </Container>
       </div>
