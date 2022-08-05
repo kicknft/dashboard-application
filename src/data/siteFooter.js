@@ -4,9 +4,7 @@ import logo from "@/images/logo-2.png";
 
 export const socials2 = [
   {
-    id: 1,
-    icon: "fa fa-twitter",
-    href: "https://twitter.com/0xKickNFT",
+   
   },
  
 ];

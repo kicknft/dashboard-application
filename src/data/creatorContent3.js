@@ -6,14 +6,14 @@ import flag from "@/images/flag.png";
 import info from "@/images/info.jpg";
 import bg1 from "@/images/project5-b.jpg";
 import bg2 from "@/images/project-bg-2.jpg";
-import thumb3 from "@/images/creator2.jpg"; //section image
+import thumb3 from "@/images/creator3.jpg"; //section image
 // import projectDetails2 from "@/images/project-details-2.jpg";
-import thumb2 from "@/images/creator2-a.jpeg"; //section image
+import thumb2 from "@/images/creator3-a.jpg"; //section image
 import projectInfo from "@/images/owner.png";
 import projectPerk1 from "@/images/supporter-silver.png";
 import projectPerk2 from "@/images/supporter-gold.png";
 import projectPerk3 from "@/images/supporter-platinum.png";
-import thumb from "@/images/creator2.jpg";
+import thumb from "@/images/creator3.jpg";
 
 import { faqs } from "./faqArea";
 
@@ -132,14 +132,14 @@ export const creatorArea = [
 
 export const creatorDetailsArea = {
     thumb,
-    tagline: "Celebrity",
+    tagline: "Writer",
     country: "India",
-    title: "Gaurav Taneja - Lauching a new Sponsoring Edition On Instagram  ",
+    title: "Chetan Bagat - Producing a new movie based on my novel",
     pledged: 5003,
     backers: 8,
     daysLeft: 20,
     raised: 3,
-    goal: "20000.00",
+    goal: "50000.00",
     socials: socials3,
 };
 
@@ -164,14 +164,14 @@ export const creatorDetailsTabBtns = [
 
 export const creatorDetailsStory = {
     ids: "pills-home",
-    text: "About - Gaurav Taneja’s net worth is $5 million as of 2022. Gaurav Taneja aka Flying Beast is an Indian youtuber, commercial pilot and nutritionist. He accumulated his net worth through advertisements and brand collaboration on his social media accounts. He is known for producing YouTube videos concerning Fitness, Gaming and his daily life vlogs.",
+    text: "About - Chetan Bhagat graduated in mechanical engineering from NIT Delhi and then pursued PGP from IIM Ahmedabad. He started his career as an investment banker but left it after a few years to pursue writing. He has written ten novels and three non-fiction books. His first novel, Five Point Someone, was published in 2004.",
     lists: [
         '',
        
        
     ],
     image: thumb2,
-    text2:" I am lauching a new Sponsoring Edition On Instagram by supporting us here you can earn percentage based returns on our sponsoring edition profit.",
+    text2:" I am launching my new movie based on one of my book. You can fund the production of my movie.",
     text3:"",
     // items: [
     //     {
@@ -222,8 +222,8 @@ export const creatorDetailsComments = {
 export const creatorDetailsSidebar = {
     info: {
         image: projectInfo,
-        name: " Gaurav Taneja",
-        backed: 20,
+        name: " Chetan Bhagat",
+        backed: 10,
         text: "Celebrity",
     },
     perks: [

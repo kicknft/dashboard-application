@@ -1,19 +1,18 @@
-import image1 from "@/images/creator1.jpg";
-import image2 from "@/images/creator2.jpg";
-import image3 from "@/images/creator3.jpg";
+import image1 from "@/images/donation1.webp";
+import image2 from "@/images/donation2.jpg";
+import image3 from "@/images/donation3.webp";
 
 import flag from "@/images/flag.png";
 import info from "@/images/info.jpg";
 import bg1 from "@/images/project5-b.jpg";
 import bg2 from "@/images/project-bg-2.jpg";
-import thumb3 from "@/images/creator2.jpg"; //section image
+import thumb3 from "@/images/donation2-a.jpg"; //section image
 // import projectDetails2 from "@/images/project-details-2.jpg";
-import thumb2 from "@/images/creator2-a.jpeg"; //section image
+import thumb2 from "@/images/donation2.webp"; //section image
 import projectInfo from "@/images/owner.png";
-import projectPerk1 from "@/images/supporter-silver.png";
-import projectPerk2 from "@/images/supporter-gold.png";
-import projectPerk3 from "@/images/supporter-platinum.png";
-import thumb from "@/images/creator2.jpg";
+import projectPerk1 from "@/images/donation-pl.png";
+
+import thumb from "@/images/donation2-a.jpg";
 
 import { faqs } from "./faqArea";
 
@@ -40,40 +39,41 @@ export const socials3 = [
     },
 ];
 
-const creators = [
+const donations = [
     {
         id: 1,
         image: image1,
-        category: "Youtuber",
+        category: "Education",
         date: "30 Days Left",
-        title: "Salil jamdar - New Webseries Production",
+        title: "Sponsor a happiness kit for underprivileged kids",
         goal: "25000.00",
         raised: 13,
     },
     {
         id: 2,
         image: image2,
-        category: "Instagramer",
+        category: "Tragedy",
         date: "20 Days Left",
-        title: "Gaurav Taneja - Lauching a new Sponsoring Edition On Instagram ",
+        title: "Help People in Assam Flood ",
         goal: "20000.00",
         raised: 13,
     },
     {
         id: 3,
         image: image3,
-        category: "Writer",
+        category: "Food",
         date: "20 Days Left",
-        title: "Chetan Bagat - Producing a new movie based on my novel ",
-        goal: "50000.00",
-        raised: 15,
+        title: "Help Us Feed The Widow Mataji ",
+        goal: "20000.00",
+        raised: 13,
     },
+    
 ];
 
-export const creatorsArea = {
+export const donationsArea = {
     tagline: "Businesses You Can Back",
     title: "Explore Projects",
-    creators,
+    donations,
 };
 
 export const exploreCreators = {
@@ -83,35 +83,27 @@ export const exploreCreators = {
         {
             id: 1,
             image: image1,
-            tagline: "Youtuber",
+            tagline: "Education",
             date: "30 Days Left",
-            title: "Salil jamdar - New Webseries Production",
+            title: "Sponsor a happiness kit for underprivileged kids",
             goal: "25000.00",
             raised: 13,
         },
         {
             id: 2,
             image: image2,
-            tagline: "Instagramer",
+            tagline: "Tragedy",
             date: "20 Days Left",
-            title: "Gaurav Taneja - Lauching a new Sponsoring Edition On Instagram ",
+            title: " Help People in Assam Flood ",
             goal: "20000.00",
             raised: 13,
         },
-        {
-            id: 3,
-            image: image3,
-            tagline: "Writer",
-            date: "20 Days Left",
-            title: "Chetan Bagat - Producing a new movie based on my novel",
-            goal: "50000.00",
-            raised: 15,
-        },
+    
     
     ],
 };
 
-export const creatorArea = [
+export const donationArea = [
     {
         id: 1,
         bg: bg1,
@@ -130,12 +122,12 @@ export const creatorArea = [
     },
 ];
 
-export const creatorDetailsArea = {
+export const donationDetailsArea = {
     thumb,
-    tagline: "Celebrity",
+    tagline: "Tragedy",
     country: "India",
-    title: "Gaurav Taneja - Lauching a new Sponsoring Edition On Instagram  ",
-    pledged: 5003,
+    title: "Help People in Assam Flood ",
+    pledged: 2203,
     backers: 8,
     daysLeft: 20,
     raised: 3,
@@ -143,7 +135,7 @@ export const creatorDetailsArea = {
     socials: socials3,
 };
 
-export const creatorDetailsTabBtns = [
+export const donationDetailsTabBtns = [
     {
         id: "pills-home",
         name: "Story",
@@ -162,17 +154,18 @@ export const creatorDetailsTabBtns = [
     },
 ];
 
-export const creatorDetailsStory = {
+export const donationDetailsStory = {
     ids: "pills-home",
-    text: "About - Gaurav Taneja’s net worth is $5 million as of 2022. Gaurav Taneja aka Flying Beast is an Indian youtuber, commercial pilot and nutritionist. He accumulated his net worth through advertisements and brand collaboration on his social media accounts. He is known for producing YouTube videos concerning Fitness, Gaming and his daily life vlogs.",
+    text: "55,42,053 people have been damaged in 32 of the state's 36 districts, according to the Assam State Disaster Management Authority (ASDMA). The majority of displaced individuals are cramped together in camps or on improvised boats, with minimal access to food and other necessities. For children, who suffer from malnutrition as well, health and hygiene have been top priorities.",
+
     lists: [
         '',
        
        
     ],
     image: thumb2,
-    text2:" I am lauching a new Sponsoring Edition On Instagram by supporting us here you can earn percentage based returns on our sponsoring edition profit.",
-    text3:"",
+    text2:"While Assam experiences flooding practically annually, the severity we are witnessing right now is beyond anything we have seen in a long time. Darrang has been affected by floods in less than a month; things are growing worse! The district's more than 100 villages are in distress. At midnight, thousands of people are being forced to abandon their homes; they have sought sanctuary in school facilities, but their families lack food. There has been a tremendous loss of property as well - the condition is dire and people are in urgent need of support. ",
+    text3:"We ensure 100% transparency because you deserve to know when, where, and how your donations are bringing a change in who's life. Sponsor a relief kit homeless people and we will share with you a picture of the donated kits marked with your name on it. The distribution will be carried out by our partner NGOs in cities of Assam.",
     // items: [
     //     {
     //         idi: 1,
@@ -189,12 +182,12 @@ export const creatorDetailsStory = {
     images: thumb3,
 };
 
-export const creatorDetailsFaq = {
+export const donationDetailsFaq = {
     id: "pills-profile",
     faqs,
 };
 
-export const creatorDetailsUpdates = {
+export const donationDetailsUpdates = {
     id: "pills-contact",
     updates: [
         {
@@ -209,7 +202,7 @@ export const creatorDetailsUpdates = {
     ],
 };
 
-export const creatorDetailsComments = {
+export const donationDetailsComments = {
     idc: "pills-4",
     comments: [
         {
@@ -219,12 +212,12 @@ export const creatorDetailsComments = {
     ],
 };
 
-export const creatorDetailsSidebar = {
+export const donationDetailsSidebar = {
     info: {
         image: projectInfo,
-        name: " Gaurav Taneja",
-        backed: 20,
-        text: "Celebrity",
+        name: " Charitism Foundation ",
+        backed: 10,
+        text: "Non Profit",
     },
     perks: [
         {
@@ -236,29 +229,7 @@ export const creatorDetailsSidebar = {
             claimed: 10,
             totalClaimed: 50,
         },
-        {
-            id: 2,
-            image: projectPerk2,
-            sold: 15,
-            off: 50,
-            amount: "0.2 Matic",
-            claimed: 13,
-            totalClaimed: 50,
-        },
-        {
-            id: 3,
-            image: projectPerk3,
-            sold: 13,
-            off: 50,
-            amount: "0.3 Matic",
-            claimed: 12,
-            totalClaimed: 50,
-        },
     ],
 };
 
-export const similarProjects = {
-    tagline: "Businesses You Can Back",
-    title: "Similar Projects",
-    creators: creators.slice(0, 3),
-};
+

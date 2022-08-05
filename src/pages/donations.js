@@ -1,6 +1,6 @@
 import Header from "@/components/Header/Header";
 import Layout from "@/components/Layout/Layout";
-import ExploreArea from "@/components/ProjectsArea/ExploreArea";
+import ExploreDonations from "@/components/ProjectsArea/ExploreDonations";
 import PageTitle from "@/components/Reuseable/PageTitle";
 import React from "react";
 
@@ -9,7 +9,7 @@ const Projects = () => {
         <Layout>
             <Header />
             <PageTitle title="Donation" />
-            <ExploreArea />
+            <ExploreDonations/>
         </Layout>
     );
 };

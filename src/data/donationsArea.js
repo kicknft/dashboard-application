@@ -1,19 +1,18 @@
-import image1 from "@/images/creator1.jpg";
-import image2 from "@/images/creator2.jpg";
-import image3 from "@/images/creator3.jpg";
+import image1 from "@/images/donation1.webp";
+import image2 from "@/images/donation2.jpg";
+import image3 from "@/images/donation3.webp";
 
 import flag from "@/images/flag.png";
 import info from "@/images/info.jpg";
 import bg1 from "@/images/project5-b.jpg";
 import bg2 from "@/images/project-bg-2.jpg";
-import thumb3 from "@/images/creator2.jpg"; //section image
+import thumb3 from "@/images/donation1-a.png"; //section image
 // import projectDetails2 from "@/images/project-details-2.jpg";
-import thumb2 from "@/images/creator2-a.jpeg"; //section image
+import thumb2 from "@/images/donation1.webp"; //section image
 import projectInfo from "@/images/owner.png";
-import projectPerk1 from "@/images/supporter-silver.png";
-import projectPerk2 from "@/images/supporter-gold.png";
-import projectPerk3 from "@/images/supporter-platinum.png";
-import thumb from "@/images/creator2.jpg";
+import projectPerk1 from "@/images/donation-pl.png";
+
+import thumb from "@/images/donation1-a.png";
 
 import { faqs } from "./faqArea";
 
@@ -40,40 +39,41 @@ export const socials3 = [
     },
 ];
 
-const creators = [
+const donations = [
     {
         id: 1,
         image: image1,
-        category: "Youtuber",
+        category: "Education",
         date: "30 Days Left",
-        title: "Salil jamdar - New Webseries Production",
+        title: "Sponsor a happiness kit for underprivileged kids",
         goal: "25000.00",
         raised: 13,
     },
     {
         id: 2,
         image: image2,
-        category: "Instagramer",
+        category: "Tragedy",
         date: "20 Days Left",
-        title: "Gaurav Taneja - Lauching a new Sponsoring Edition On Instagram ",
+        title: "Help People in Assam Flood ",
         goal: "20000.00",
         raised: 13,
     },
     {
         id: 3,
         image: image3,
-        category: "Writer",
+        category: "Food",
         date: "20 Days Left",
-        title: "Chetan Bagat - Producing a new movie based on my novel ",
-        goal: "50000.00",
-        raised: 15,
+        title: "Help Us Feed The Widow Mataji ",
+        goal: "20000.00",
+        raised: 13,
     },
+    
 ];
 
-export const creatorsArea = {
+export const donationsArea = {
     tagline: "Businesses You Can Back",
     title: "Explore Projects",
-    creators,
+    donations,
 };
 
 export const exploreCreators = {
@@ -83,35 +83,37 @@ export const exploreCreators = {
         {
             id: 1,
             image: image1,
-            tagline: "Youtuber",
+            tagline: "Education",
             date: "30 Days Left",
-            title: "Salil jamdar - New Webseries Production",
+            title: "Sponsor a happiness kit for underprivileged kids",
             goal: "25000.00",
             raised: 13,
         },
         {
             id: 2,
             image: image2,
-            tagline: "Instagramer",
+            tagline: "Tragedy",
             date: "20 Days Left",
-            title: "Gaurav Taneja - Lauching a new Sponsoring Edition On Instagram ",
+            title: " Help People in Assam Flood ",
             goal: "20000.00",
             raised: 13,
         },
         {
             id: 3,
             image: image3,
-            tagline: "Writer",
+            tagline: "Food",
             date: "20 Days Left",
-            title: "Chetan Bagat - Producing a new movie based on my novel",
-            goal: "50000.00",
-            raised: 15,
+            title: "Help Us Feed The Widow Mataji ",
+            goal: "20000.00",
+            raised: 13,
         },
+        
+    
     
     ],
 };
 
-export const creatorArea = [
+export const donationArea = [
     {
         id: 1,
         bg: bg1,
@@ -130,20 +132,20 @@ export const creatorArea = [
     },
 ];
 
-export const creatorDetailsArea = {
+export const donationDetailsArea = {
     thumb,
-    tagline: "Celebrity",
+    tagline: "Education",
     country: "India",
-    title: "Gaurav Taneja - Lauching a new Sponsoring Edition On Instagram  ",
-    pledged: 5003,
+    title: "Sponsor a happiness kit for underprivileged kids",
+    pledged: 2203,
     backers: 8,
     daysLeft: 20,
     raised: 3,
-    goal: "20000.00",
+    goal: "250000.00",
     socials: socials3,
 };
 
-export const creatorDetailsTabBtns = [
+export const donationDetailsTabBtns = [
     {
         id: "pills-home",
         name: "Story",
@@ -162,16 +164,17 @@ export const creatorDetailsTabBtns = [
     },
 ];
 
-export const creatorDetailsStory = {
+export const donationDetailsStory = {
     ids: "pills-home",
-    text: "About - Gaurav Taneja’s net worth is $5 million as of 2022. Gaurav Taneja aka Flying Beast is an Indian youtuber, commercial pilot and nutritionist. He accumulated his net worth through advertisements and brand collaboration on his social media accounts. He is known for producing YouTube videos concerning Fitness, Gaming and his daily life vlogs.",
+    text: "Let’s together celebrate by enlightening poor children’s life. The more happiness you spread the happier you get. Together you and we can do this by making poor children happy.",
+
     lists: [
         '',
        
        
     ],
     image: thumb2,
-    text2:" I am lauching a new Sponsoring Edition On Instagram by supporting us here you can earn percentage based returns on our sponsoring edition profit.",
+    text2:"You can join us in this endeavor by sponsoring a happiness kit for the kids and we will share with you a picture of the donated kits marked with your name on them. We ensure 100% transparency because you deserve to know when, where, and how your donations are bringing a change in who's life.",
     text3:"",
     // items: [
     //     {
@@ -189,12 +192,12 @@ export const creatorDetailsStory = {
     images: thumb3,
 };
 
-export const creatorDetailsFaq = {
+export const donationDetailsFaq = {
     id: "pills-profile",
     faqs,
 };
 
-export const creatorDetailsUpdates = {
+export const donationDetailsUpdates = {
     id: "pills-contact",
     updates: [
         {
@@ -209,7 +212,7 @@ export const creatorDetailsUpdates = {
     ],
 };
 
-export const creatorDetailsComments = {
+export const donationDetailsComments = {
     idc: "pills-4",
     comments: [
         {
@@ -219,12 +222,12 @@ export const creatorDetailsComments = {
     ],
 };
 
-export const creatorDetailsSidebar = {
+export const donationDetailsSidebar = {
     info: {
         image: projectInfo,
-        name: " Gaurav Taneja",
+        name: " Ishaan Foundation ",
         backed: 20,
-        text: "Celebrity",
+        text: "Non Profit",
     },
     perks: [
         {
@@ -236,29 +239,7 @@ export const creatorDetailsSidebar = {
             claimed: 10,
             totalClaimed: 50,
         },
-        {
-            id: 2,
-            image: projectPerk2,
-            sold: 15,
-            off: 50,
-            amount: "0.2 Matic",
-            claimed: 13,
-            totalClaimed: 50,
-        },
-        {
-            id: 3,
-            image: projectPerk3,
-            sold: 13,
-            off: 50,
-            amount: "0.3 Matic",
-            claimed: 12,
-            totalClaimed: 50,
-        },
     ],
 };
 
-export const similarProjects = {
-    tagline: "Businesses You Can Back",
-    title: "Similar Projects",
-    creators: creators.slice(0, 3),
-};
+
