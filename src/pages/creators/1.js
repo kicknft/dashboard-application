@@ -30,9 +30,14 @@ const { info, perks } = creatorDetailsSidebar;
 // import ProjectDetailsStory from "@/components/ProjectsArea/ProjectDetails/ProjectDetailsStory";
 import { creatorDetailsStory } from "@/data/creatorsArea";
 const { ids, text, lists, text2, items, text3, image, images } =
-  creatorDetailsStory;
+    creatorDetailsStory;
 
 import ProjectDetailsUpdates from "@/components/ProjectsArea/ProjectDetails/ProjectDetailsUpdates";
+
+import { ethers } from "ethers";
+import contractAbi from '../../utils/contractABI.json'
+const CONTRACT_ADDRESS = '0xA2001555Ff78EF54cFB754c31661fe798902F327';
+const uri = "ipfs://bafkreigr3azmskokskqutkh6fjmdqarkm346kivoasnqoaiyzpq6yhoyii"
 
 const {
     thumb,
@@ -55,6 +60,8 @@ const { faqs, id } = creatorDetailsFaq;
 
 const ProjectDetailsPark = ({ perk = {} }) => {
     const { id, image, sold, off, amount, claimed, totalClaimed } = perk;
+
+
 
     return (
         <div
@@ -104,6 +111,33 @@ const SingleProject = () => {
         const active = current === id;
         return `tab-pane animated${active ? " fadeIn show active" : ""}`;
     };
+
+    const mint = async () => {
+        try {
+            const { ethereum } = window;
+            if (ethereum) {
+                const provider = new ethers.providers.Web3Provider(ethereum);
+                const signer = provider.getSigner();
+                const contract = new ethers.Contract(CONTRACT_ADDRESS, contractAbi, signer);
+
+                console.log("Going to pop wallet now to pay gas...")
+
+                let tx = await contract.safeMint(uri, { value: ethers.utils.parseEther('0.1') });
+                // Wait for the transaction to be mined
+                const receipt = await tx.wait();
+
+                // Check if the transaction was successfully completed
+                if (receipt.status === 1) {
+                    console.log(" minted! https://mumbai.polygonscan.com/tx/" + tx.hash);
+
+                } else {
+                    alert("Transaction failed! Please try again");
+                }
+            }
+        } catch (error) {
+            console.log(error);
+        }
+    }
 
     return (
         <Layout>
@@ -161,9 +195,9 @@ const SingleProject = () => {
                                     </span>
                                 </div>
                                 <div className="project-btn mt-25">
-                                    <a className="main-btn" href="#">
+                                    <button className="main-btn" onClick={mint}>
                                         Back this project
-                                    </a>
+                                    </button>
                                 </div>
                                 <div className="project-share d-flex align-items-center">
                                     <span>Share this Project</span>
